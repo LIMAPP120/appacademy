@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "myFont";
+  src: url("myFont.woff2");
+}
+
+html {
+  font-family: "myFont", "Bitstream Vera Serif", serif;
+  background-color: black;
+  color: yellowgreen;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: ;
+  padding: 10px;
+  margin: 0;
+  font-weight: bolder;
+  text-decoration: none;
+  color: yellow;
+  background-color: ;
+  text-align: center;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: ;
+  padding: 10px;
+  margin: 0 15px;
+  font-weight: ;
+  color: blueviolet;
+  background-color: ;
+}
+
+p {
+  font-family: ;
+  font-size: 1.2em;
+  padding: 10px;
+  margin: 0 15px;
+  color: ;
+  background-color: ;
+}
+
+.logo {
+  background-size: cover;
+  background-image: url("https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png");
+  background-color: whitesmoke;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: 20px auto;
+}
+
+hr {
+  color: aqua;
+}

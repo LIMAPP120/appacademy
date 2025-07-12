@@ -1,0 +1,33 @@
+form {
+  border: 5px solid yellow;
+  background-color: yellowgreen;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2rem;
+}
+
+form.format {
+  display: table;
+}
+
+div.format {
+  display: table-row;
+}
+
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+.centre {
+  display: grid;
+  place-items: centre;
+}
+
+.inline {
+  display: inline;
+}

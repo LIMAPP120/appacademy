@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Building HTML Forms</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form action="" method="post" class="format">
+      <fieldset>
+        <legend>Add user</legend>
+
+        <div class="format">
+          <label for="firstname">First Name</label>
+          <input type="text" name="firstname" id="firstname" />
+        </div>
+
+        <div class="format">
+          <label for="lastname">Last Name</label>
+          <input type="text" name="lastname" id="lastname" />
+        </div>
+
+        <div class="format">
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <div class="format">
+          <label for="status">Status</label>
+          <select name="status" id="status-select">
+            <option value="">--Please choose an option--</option>
+            <option value="student">Student</option>
+            <option value="instructor">Instructor</option>
+            <option value="guest">Guest</option>
+          </select>
+        </div>
+
+        <div>
+          <p>Choose your favorite programming language:</p>
+          <span class="inline">
+            <input type="radio" name="fav-language" id="html" value="HTML" />
+            <label for="html">HTML</label>
+          </span>
+
+          <span class="inline">
+            <input type="radio" name="fav-language" id="css" value="CSS" />
+            <label for="css">CSS</label>
+          </span>
+
+          <span class="inline">
+            <input
+              type="radio"
+              name="fav-language"
+              id="javascript"
+              value="JavaScript"
+            />
+            <label for="javascript">JavaScript</label>
+          </span>
+        </div>
+
+        <div>
+          <label for="comments">Comments</label>
+          <textarea name="comments" id="comments" rows="5" cols="50"></textarea>
+        </div>
+
+        <div class="format">
+          <label for="currentdate">Current date</label>
+          <input type="date" name="currentdate" id="currentdate" />
+        </div>
+
+        <div class="format">
+          <label for="signup">Sign up for newsletter</label>
+          <input type="checkbox" name="signup" id="signup" />
+        </div>
+        <div class="format">
+          <label for="t&c">Agree to terms and conditions</label>
+          <input type="checkbox" name="t&c" id="t&c" />
+        </div>
+        <div class="centre">
+          <button type="submit">Submit</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
